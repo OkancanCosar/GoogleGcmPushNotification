@@ -1,0 +1,14 @@
+									YAPILACAKLAR: 
+		
+	** 	baglan.php dosyasýndaki boþluklar database iþlemleri için doldurulacak
+	** 	"wp_gcm_kullanicilar" isminde bir tablo doluþturulup .sql uzantýlý dosya import edilecek
+	** 	send.php 33. satýrdaki 'Authorization: key=*******', 
+bölümüne 
+
+	1-> https://console.developers.google.com/project den yeni bir proje oluþturulacak
+	2-> projenin içine girilip sol menuden APIs & auth bölümünden APIs e, ordan da 
+"Cloud Messaging for Android" e týklanýp "enable api" iþlemi yapýlacak.
+	3-> yeni bir serverkey oluþturabilmek için yine sol menuden "Credentials" e gelip 
+"create new key" bölümüne týklayýp "server key" i seçip create diyeceðiz.
+	4-> son aþamada da oluþturduðumuz "API key" i ******** ile belirlenen yeri silip oraya yazacagýz.
+	
